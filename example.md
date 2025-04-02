@@ -41,3 +41,5 @@ except Exception as e:
 else:
     print("Диаграмма сохранена в use_case_diagram.png")
 ```
+### Результат:
+<img src="/use_case_diagram.png" width="600"/>
