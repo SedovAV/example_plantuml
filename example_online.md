@@ -1,4 +1,4 @@
-## Пример использования PlantUML на Python
+## Пример использования PlantUML на Python (online версия)
 ```cmd
 python -m pip install plantuml six
 ```
@@ -32,9 +32,9 @@ Customer --> UC3 : Расширенные права
 # Сохраняем описание в 
 Path("use_case_diagram.puml").write_text(use_case_diagram)
 
-# Конвертируем в PNG (требуется Java и plantuml.jar)
+# Конвертируем в PNG
 try:
-    server = PlantUML(url="plantuml-1.2022.1.jar") 
+    server = PlantUML(url="http://www.plantuml.com/plantuml/img/") 
     server.processes_file("use_case_diagram.puml", "use_case_diagram.png")
 except Exception as e:
     print(f"Произошла ошибка при конвертации диаграммы: {e}")
