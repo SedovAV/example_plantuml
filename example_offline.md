@@ -47,6 +47,7 @@ except subprocess.CalledProcessError as e:
 except FileNotFoundError:
     print("Ошибка: Проверьте, установлен ли Java и правильный ли путь к plantuml.jar")
 except Exception as e:
-    print(f"Произошла ошибка: {e}")```
+    print(f"Произошла ошибка: {e}")
+```
 ### Результат:
-<img src="/use_case_diagram.png" width="600"/>
+<img src="/use_case_diagram2.png" width="600"/>
